@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+}
+
+header h1{
+    font-size: 80px;
+}
+
+header h2{
+    font-size: 30px;
+}
+ 
+main{
+    border: solid;
+    width: 45%;
+    margin-left: 310px;
+    padding: 55px;
+    border-radius: 30px;
+}
+
+.zoneProposition{
+    border: solid;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.zoneSaisir{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.zoneSaisir input {
+    border: solid  1px;
+    margin-left: 25px;
+    width: 75%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    border: solid bisque ;
+    padding: 20px;
+    background-color: bisque;
+}
+/* 
+.popupBack {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #f76c5e;
+    border-radius: 30px;
+    z-index: 1;
+} */
+
+
+
+.active {
+    display: flex !important;
+}
+
+.popup p {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.popup div {
+    font-size: 25px;
+    padding : 5px;
+    padding-bottom: 15px;
+}
+
+/* Eléments de formulaire */
+.popup input {
+    margin-bottom: 10px;
+}
+
+.popup button {
+    margin: 5px;
+}
